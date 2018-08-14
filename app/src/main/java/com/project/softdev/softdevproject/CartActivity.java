@@ -11,9 +11,7 @@ import android.view.View;
 
 import java.util.Iterator;
 
-/**
- * Created by Camilo on 4/26/2016.
- */
+
 public class CartActivity extends BrowserActivity {
 
     @Override
