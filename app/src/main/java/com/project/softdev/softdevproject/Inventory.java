@@ -14,9 +14,7 @@ import java.io.Serializable;
 import java.io.StreamCorruptedException;
 import java.util.ArrayList;
 
-/**
- * Created by Camilo on 4/29/2016.
- */
+
 public class Inventory extends ArrayList<Product> implements Serializable {
 
     public final static String SAMPLE_DESCRIPTION = "Lorem ipsum dolor sit amet, consectetur\n" +
