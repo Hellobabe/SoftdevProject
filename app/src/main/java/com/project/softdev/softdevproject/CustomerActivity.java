@@ -1,19 +1,14 @@
 package com.project.softdev.softdevproject;
 
 import android.app.Activity;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Resources;
-import android.support.v7.app.AlertDialog;
-import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import java.util.Iterator;
 
-/*
- * Created by Camilo on 4/18/2016.
- */
+
 public class CustomerActivity extends BrowserActivity {
 
     @Override
