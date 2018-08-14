@@ -2,9 +2,7 @@ package com.project.softdev.softdevproject;
 
 import java.io.Serializable;
 
-/**
- * Created by Camilo on 4/28/2016.
- */
+
 public class ListItemModel implements Serializable {
     private String productName = "";
     private  int imageResource = 0;
