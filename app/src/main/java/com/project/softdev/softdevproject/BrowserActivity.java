@@ -20,9 +20,7 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-/*
- * Created by Camilo on 4/29/2016.
- */
+
 public abstract class BrowserActivity extends AppCompatActivity {
 
     private ArrayList<ListItemModel> listItems = new ArrayList<>();
