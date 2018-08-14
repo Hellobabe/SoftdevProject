@@ -7,9 +7,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-/**
- * Created by Camilo on 4/26/2016.
- */
+
 public class Session extends AppCompatActivity{
 
     private Session(){
