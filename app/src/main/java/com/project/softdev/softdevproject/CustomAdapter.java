@@ -13,9 +13,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by Camilo on 4/28/2016.
- */
+
 public class CustomAdapter extends BaseAdapter implements View.OnClickListener {
 
     private Activity activity;
