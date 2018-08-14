@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.project.softdev.softdevproject">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/medigologo"
+        android:label="Medigo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:replace="android:icon,android:theme">
+        <activity android:name=".LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CustomerActivity"
+            android:label="NON PRESCRIPTION"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CartActivity"
+            android:label="CART"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SellerActivity"
+            android:label="My Inventory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SellerStatistics"
+            android:label="My Statistics"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProductView"
+            android:label="MEDICINE DETAIL"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProductCreation"
+            android:label="Create New Product"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="HOME"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="PROFILE"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ContactUsActivity"
+            android:label="CONTACT US"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
