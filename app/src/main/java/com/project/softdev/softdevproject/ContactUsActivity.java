@@ -1,6 +1,5 @@
 package com.project.softdev.softdevproject;
 
-import android.content.ClipData;
 import android.content.DialogInterface;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
