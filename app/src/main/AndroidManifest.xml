@@ -53,7 +53,8 @@
             android:name=".ProfileActivity"
             android:label="PROFILE"
             android:screenOrientation="portrait" />
-        <activity android:name=".ContactUsActivity"
+        <activity
+            android:name=".ContactUsActivity"
             android:label="CONTACT US"
             android:screenOrientation="portrait"/>
     </application>
