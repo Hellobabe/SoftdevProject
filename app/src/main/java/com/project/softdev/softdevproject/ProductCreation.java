@@ -19,9 +19,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-/**
- * Created by Camilo on 4/30/2016.
- */
+
 public class ProductCreation extends AppCompatActivity {
 
     private ImageView imageView;

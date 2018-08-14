@@ -10,9 +10,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 
-/**
- * Created by Camilo on 4/30/2016.
- */
+
 public class ProductView extends AppCompatActivity {
 
     private Activity activity;
