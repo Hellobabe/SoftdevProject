@@ -11,9 +11,7 @@ import android.view.MenuItem;
 
 import java.util.Iterator;
 
-/**
- * Created by Camilo on 4/28/2016.
- */
+
 public class SellerActivity extends BrowserActivity {
 
     @Override
