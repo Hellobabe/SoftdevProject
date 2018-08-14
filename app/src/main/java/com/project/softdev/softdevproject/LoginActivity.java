@@ -21,9 +21,7 @@ import java.io.OptionalDataException;
 import java.io.StreamCorruptedException;
 import java.util.ArrayList;
 
-/*
- * Created by Camilo on 4/18/2016.
- */
+
 public class LoginActivity extends AppCompatActivity{
 
     public static final String USERS_FILE = "users";
