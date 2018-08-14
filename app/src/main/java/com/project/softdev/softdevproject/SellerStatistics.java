@@ -10,9 +10,7 @@ import android.widget.TextView;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 
-/**
- * Created by Camilo on 4/29/2016.
- */
+
 public class SellerStatistics extends AppCompatActivity {
 
     private TextView profit;
