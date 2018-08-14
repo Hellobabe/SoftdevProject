@@ -6,9 +6,7 @@ import android.support.v4.util.Pair;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-/**
- * Created by Camilo on 4/28/2016.
- */
+
 public class Customer extends User {
 
     public Customer(String username, String password, boolean isSeller) {
