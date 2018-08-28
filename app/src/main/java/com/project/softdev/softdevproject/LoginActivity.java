@@ -102,6 +102,7 @@ public class LoginActivity extends AppCompatActivity{
         //clears values; they might have been populated by earlier User
         username.setText("");
         password.setText("");
+        address.setText("");
         switchNewUser.setChecked(false);
         switchSeller.setChecked(false);
     }

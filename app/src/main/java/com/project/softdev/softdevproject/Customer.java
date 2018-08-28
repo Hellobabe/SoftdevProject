@@ -1,7 +1,10 @@
 package com.project.softdev.softdevproject;
 
 
+import android.content.Context;
 import android.support.v4.util.Pair;
+import android.widget.ArrayAdapter;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -75,7 +78,6 @@ public class Customer extends User {
             items.add(new Pair<>(p.getName(), p.getQty()));
         }
         shoppingCart.clear();
-
         return items;
     }
     private ArrayList<Product> shoppingCart;

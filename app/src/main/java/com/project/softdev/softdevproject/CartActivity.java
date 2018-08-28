@@ -8,6 +8,8 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import java.util.Iterator;
 
@@ -41,21 +43,23 @@ public class CartActivity extends BrowserActivity {
 
 
     private void showCustomDialog() {
+
         LayoutInflater mInflater = this.getLayoutInflater();
         View mView = mInflater.inflate(R.layout.payment_layout, null);
-        new AlertDialog.Builder(this)
-                .setTitle("Confirm transaction")
-                .setMessage("If you've reviewed your cart, please enter your full name, complete Address, City and Contact Number to complete your order.")
-                .setView(mView)
-                .setPositiveButton("Order", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
 
-                        Session.getInstance().checkout();
-                    }
-                })
-                .setNegativeButton("Cancel", null)
-                .show();
+            new AlertDialog.Builder(this)
+                    .setTitle("Confirm transaction")
+                    .setMessage("If you've reviewed your cart, please enter your full name, complete Address, City and Contact Number to complete your order.")
+                    .setView(mView)
+                    .setPositiveButton("Order", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            Session.getInstance().checkout();
+                            Toast.makeText(getApplicationContext(), "You have ordered your medicine, wait for the delivery.", Toast.LENGTH_LONG).show();
+                        }
+                    })
+                    .setNegativeButton("Cancel", null)
+                    .show();
     }
 
     @Override
