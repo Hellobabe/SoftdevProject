@@ -45,11 +45,12 @@ public class CartActivity extends BrowserActivity {
         View mView = mInflater.inflate(R.layout.payment_layout, null);
         new AlertDialog.Builder(this)
                 .setTitle("Confirm transaction")
-                .setMessage("If you've reviewed your cart, please enter your full name, street address and city to complete your order.")
+                .setMessage("If you've reviewed your cart, please enter your full name, complete Address, City and Contact Number to complete your order.")
                 .setView(mView)
                 .setPositiveButton("Order", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
+
                         Session.getInstance().checkout();
                     }
                 })
