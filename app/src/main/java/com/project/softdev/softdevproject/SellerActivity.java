@@ -47,7 +47,7 @@ public class SellerActivity extends BrowserActivity {
         if(keyCode == KeyEvent.KEYCODE_BACK && this==SellerActivity.this) {
             //Ask the user if they want to quit
             new AlertDialog.Builder(this)
-                    .setIcon(R.drawable.icon_caution)
+                    //.setIcon(R.drawable.icon_caution)
                     .setTitle("Confirm logout")
                     .setMessage("Are you sure you want to log out?")
                     .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
@@ -83,9 +83,9 @@ public class SellerActivity extends BrowserActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()){
-            case R.id.action_stats:
-                startActivity(new Intent(SellerActivity.this, SellerStatistics.class));
-                return true;
+            //case R.id.action_stats:
+                //startActivity(new Intent(SellerActivity.this, SellerStatistics.class));
+                //return true;
             case R.id.action_logout:
                 onKeyDown(KeyEvent.KEYCODE_BACK, new KeyEvent(0, 0));
                 return true;

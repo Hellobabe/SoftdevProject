@@ -37,7 +37,7 @@
                     android:layout_height="250dp"
                     android:id="@+id/product_image_full"
                     android:layout_gravity="center"
-                    android:src="@drawable/icon_add_to_cart" />
+                    android:src="@drawable/ic_add_to_cart" />
 
                 <EditText
                     android:layout_width="match_parent"

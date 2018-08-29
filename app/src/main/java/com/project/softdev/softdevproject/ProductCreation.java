@@ -134,7 +134,7 @@ public class ProductCreation extends AppCompatActivity {
             else{
                 //Ask the user if they want to quit
                 new AlertDialog.Builder(this)
-                        .setIcon(R.drawable.icon_caution)
+                        //.setIcon(R.drawable.icon_caution)
                         .setTitle("Confirm")
                         .setMessage("Cancel product creation?")
                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
@@ -177,7 +177,7 @@ public class ProductCreation extends AppCompatActivity {
                 return true;
             case R.id.action_order:
                 new AlertDialog.Builder(this)
-                        .setIcon(R.drawable.icon_caution)
+                        //.setIcon(R.drawable.icon_caution)
                         .setTitle("Confirm product creation")
                         .setMessage("Submit new product to my inventory?")
                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {

@@ -33,7 +33,7 @@ public class HomeActivity extends HomeAdapter {
         if (keyCode == KeyEvent.KEYCODE_BACK && this == HomeActivity.this) {
             //Ask the user if they want to quit
             new AlertDialog.Builder(this)
-                    .setIcon(R.drawable.icon_caution)
+                    //.setIcon(R.drawable.icon_caution)
                     .setTitle("Confirm logout")
                     .setMessage("Are you sure you want to log out?")
                     .setPositiveButton("Yes", new DialogInterface.OnClickListener() {

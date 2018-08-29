@@ -87,9 +87,9 @@ public class CustomAdapter extends BaseAdapter implements View.OnClickListener {
                 holder.adder.setVisibility(View.GONE);
                 holder.qty.setVisibility(View.VISIBLE);
             }
-            else{
+            /*else{
                 holder.adder.setImageResource(R.drawable.icon_edit);
-            }
+            }*/
 
             /************  Set holder with LayoutInflater ************/
             vi.setTag( holder );

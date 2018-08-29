@@ -28,7 +28,6 @@ public class LoginActivity extends AppCompatActivity{
 
     private TextView username;
     private TextView password;
-    private TextView address;
     private Switch switchNewUser;
     private Switch switchSeller;
     private ArrayList<User> users;
@@ -42,7 +41,6 @@ public class LoginActivity extends AppCompatActivity{
 
         username = (TextView) findViewById(R.id.login_editText1);
         password = (TextView) findViewById(R.id.login_editText2);
-        address = (TextView) findViewById(R.id.login_editText3);
         switchNewUser = (Switch)findViewById(R.id.login_switch1);
         switchNewUser.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -50,11 +48,9 @@ public class LoginActivity extends AppCompatActivity{
                 if (isChecked) {
                     username.setText("");
                     password.setText("");
-                    address.setVisibility(View.VISIBLE);
                 } else {
                     username.setText("");
                     password.setText("");
-                    address.setVisibility(View.GONE);
 
                 }
             }
@@ -102,7 +98,6 @@ public class LoginActivity extends AppCompatActivity{
         //clears values; they might have been populated by earlier User
         username.setText("");
         password.setText("");
-        address.setText("");
         switchNewUser.setChecked(false);
         switchSeller.setChecked(false);
     }
@@ -218,7 +213,6 @@ public class LoginActivity extends AppCompatActivity{
                     Toast.makeText(getApplicationContext(), "Username or Password" +
                             "is incorrect.", Toast.LENGTH_SHORT).show();
                 }
-
             }
             button.setEnabled(true);
             button.setText("Login");
@@ -226,3 +220,5 @@ public class LoginActivity extends AppCompatActivity{
         }
     }
 }
+
+//4F81BC

@@ -22,7 +22,9 @@ public abstract class User implements Serializable {
         return password.equals(this.password);
     }
 
-    public boolean isSeller(){return isSeller;}
+    public boolean isSeller(){
+        return isSeller;
+    }
 
     public String getUsername(){
         return username;

@@ -150,7 +150,7 @@ public abstract class BrowserActivity extends AppCompatActivity {
                 final EditText input = new EditText(getContext());
                 input.setInputType(InputType.TYPE_CLASS_NUMBER);
                 new AlertDialog.Builder(this)
-                        .setIcon(R.drawable.icon_refresh)
+                        //.setIcon(R.drawable.icon_refresh)
                         .setTitle("Confirm quantity")
                         .setMessage("Update product quantity and press \"Update\"")
                         .setView(input)
